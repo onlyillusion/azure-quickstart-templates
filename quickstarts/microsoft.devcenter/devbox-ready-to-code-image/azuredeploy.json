@@ -2137,7 +2137,7 @@
                     "aibImage": {
                       "type": "Microsoft.Resources/deployments",
                       "apiVersion": "2022-09-01",
-                      "name": "[format('aibImage-{0}', uniqueString(deployment().name, resourceGroup().name))]",
+                      "name": "[format('aibImages-{0}', uniqueString(deployment().name, resourceGroup().name))]",
                       "properties": {
                         "expressionEvaluationOptions": {
                           "scope": "inner"
@@ -4455,7 +4455,7 @@
                     "aibImage": {
                       "type": "Microsoft.Resources/deployments",
                       "apiVersion": "2022-09-01",
-                      "name": "[format('aibImage-{0}', uniqueString(deployment().name, resourceGroup().name))]",
+                      "name": "[format('aibImages-{0}', uniqueString(deployment().name, resourceGroup().name))]",
                       "properties": {
                         "expressionEvaluationOptions": {
                           "scope": "inner"
@@ -6674,7 +6674,7 @@
                     "aibImage": {
                       "type": "Microsoft.Resources/deployments",
                       "apiVersion": "2022-09-01",
-                      "name": "[format('aibImage-{0}', uniqueString(deployment().name, resourceGroup().name))]",
+                      "name": "[format('aibImages-{0}', uniqueString(deployment().name, resourceGroup().name))]",
                       "properties": {
                         "expressionEvaluationOptions": {
                           "scope": "inner"
