@@ -302,7 +302,7 @@ module publishProfile 'publish-profile.bicep' = {
 }
 
 module aibImage 'resource-aib.bicep' = {
-  name: 'aibImage-${uniqueString(deployment().name, resourceGroup().name)}'
+  name: 'aibImages-${uniqueString(deployment().name, resourceGroup().name)}'
   params: {
     imageName: imageName
     location: location
